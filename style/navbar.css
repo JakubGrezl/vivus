@@ -1,0 +1,16 @@
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+.navbar-nav {
+    flex-direction: row;
+    align-self: flex-end;
+    
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0px;
+    display: flex;
+}
