@@ -35,3 +35,38 @@
     margin: 0;
     padding: 0;
 }
+
+.domy-plne-zivota {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #666666;
+}
+
+.domy-plne-zivota h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.domy-plne-zivota p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    max-width: 950px;
+    text-align: center;
+}
+
+.block a {
+    background-color: #bdb406;
+    color: white;
+    border-radius: 0px;
+}
+
+.block {
+    width: 100%;
+    background-color: #edefe7;
+}

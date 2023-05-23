@@ -1,28 +1,28 @@
 let navbarContent = [
     {
         "name": "Home",
-        "link": "pages/index.html"
+        "link": "#"
     },
     {
         "name": "Pro piloty",
-        "link": "pages/propiloty.html"
+        "link": "#"
     },
     {
         "name": "Letecký výcvik",
-        "link": "pages/letvycvik.html"
+        "link": "#"
     },
     {
         "name": "Pro veřejnost",
-        "link": "pages/proverejnost.html"
+        "link": "#"
     },
     {
         "name": "Webcamera",
-        "link": "pages/webcamera.html"
+        "link": "#"
     }
 ]
 
 navbarContent.forEach(element => {
-    $(".navbar-nav").append('<a class="nav-link" src="'+ element.link +'">'+ element.name +'</a>');
+    $(".navbar-nav").append('<a class="nav-link" href="'+ element.link +'">'+ element.name +'</a>');
     $(".navbar-nav").append('<p class="nav-link">|</p>');
 });
 

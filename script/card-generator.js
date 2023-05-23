@@ -43,7 +43,7 @@ function Display(procenta) {
             <div class="row">
               <div class="col-2"><div class="blue" style="background-color: ${card.color}"></div></div>
               <div class="col card-text-wrapper">
-                <h1>${card.title}</h1>
+                <h1 style="color: ${card.color}">${card.title}</h1>
                 <p>${card.description}</p>
               </div>
             </div>
