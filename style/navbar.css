@@ -1,12 +1,22 @@
+@media only screen and (max-width: 700px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+}
+
 .navbar {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
+    padding: 20px;
 }
 
 .navbar-nav {
     flex-direction: row;
     align-self: flex-end;
-    
 }
 
 .nav-link {
