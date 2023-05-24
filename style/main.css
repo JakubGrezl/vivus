@@ -158,6 +158,29 @@
 }
 
 .information-wrapper {
-    height: 450px;
     background-color: #333928;
+}
+
+.information-wrapper div {
+    flex-direction: column;
+    
+}
+
+.webactive {
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    background-color: white;  
+    color: black;  
+}
+
+footer {
+    overflow: hidden;
+    color: white;
+}
+
+footer h1 {
+   text-transform: uppercase;
 }
