@@ -73,7 +73,9 @@ p {
 .card-image-wrapper {
     position: relative;
     overflow: hidden;
-    }
+}
+
+
 
 .card-image {
     display: block;
@@ -84,4 +86,5 @@ p {
 
 .card-text-wrapper {
     height: 250px;
+    flex-direction: column;
 }

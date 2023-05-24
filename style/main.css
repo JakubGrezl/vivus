@@ -1,5 +1,21 @@
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
     
+    .mobile-row-col {
+        flex-direction: column !important;
+    }
+
+    .vyhledavani-webu-wrapper form {
+        flex-direction: column !important;
+    }
+
+    .vyhledavani-webu-wrapper {
+        height: max-content !important;
+        padding: 20px;
+    }
+
+    .mobile-display-none {
+        display: none !important; 
+    }
 }
 
 * {
@@ -7,6 +23,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item {
@@ -60,7 +82,7 @@
     text-align: center;
 }
 
-.block a {
+.domy-plne-zivota a, .vyhledavani-webu-wrapper form input[type="submit"], .newsletter .btn {
     background-color: #bdb406;
     color: white;
     border-radius: 0px;
@@ -69,4 +91,73 @@
 .block {
     width: 100%;
     background-color: #edefe7;
+}
+
+.vyhledavani-webu-wrapper {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.vyhledavani-webu-wrapper h1, .fat-header {
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: 600;
+}
+
+.vyhledavani-webu-wrapper form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vyhledavani-webu-wrapper form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.vyhledavani-webu-wrapper form label {
+    color: #959f6f;
+}
+
+.vyhledavani-webu-wrapper form input[type="text"] {
+    opacity: 90%;
+}
+
+.newsletter {
+    height: 500px;
+}
+
+.newsletter .btn {
+    font-size: 20px;
+    font-weight: 400;
+    width: 150px;
+    height: 50px;
+}
+
+.newsletter .email-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.email-wrapper input[type="email"] {
+    border-radius: 0px;
+}
+
+.socials-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.information-wrapper {
+    height: 450px;
+    background-color: #333928;
 }
