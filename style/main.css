@@ -4,18 +4,23 @@
         flex-direction: column !important;
     }
 
-    .vyhledavani-webu-wrapper form {
-        flex-direction: column !important;
-    }
 
     .vyhledavani-webu-wrapper {
         height: max-content !important;
         padding: 20px;
     }
 
-    .mobile-display-none {
-        display: none !important; 
+    .socials-wrapper p, .socials-wrapper a {
+        font-size: 15px;
+        margin: 0px;
     }
+
+    .socials-wrapper {
+        padding-left: 0px !important;
+        display: flex;
+        align-items: center;
+    }
+    
 }
 
 * {
@@ -23,6 +28,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.btn {
+    transition: none!important;
+    &-outline-dark {
+        color: #000000;
+        border-color: #000000;
+        transition: none!important;
+    }
+}
+.btn:hover {
+    background-color:#a59d04;
+    color:#000!important;
 }
 
 .center {
@@ -39,7 +57,6 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 
 .text-field {
@@ -68,18 +85,21 @@
 }
 
 .domy-plne-zivota h1 {
-    font-size: 40px;
     font-weight: 600;
     margin-bottom: 30px;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .domy-plne-zivota p {
-    font-size: 20px;
     font-weight: 300;
     margin-bottom: 30px;
     max-width: 950px;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .domy-plne-zivota a, .vyhledavani-webu-wrapper form input[type="submit"], .newsletter .btn {
@@ -128,9 +148,6 @@
     opacity: 90%;
 }
 
-.newsletter {
-    height: 500px;
-}
 
 .newsletter .btn {
     font-size: 20px;
@@ -157,6 +174,11 @@
     padding-left: 50px;
 }
 
+
+.information-wrapper h4 {
+    font-weight: 400;
+}
+
 .information-wrapper {
     background-color: #333928;
 }
@@ -171,7 +193,7 @@
     margin: 0px;
     display: flex;
     padding-left: 50px;
-    justify-content: center;
+    align-items: center;
     background-color: white;  
     color: black;  
 }

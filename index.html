@@ -39,20 +39,13 @@
     </navbar>
     <div id="coursel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/1.png" class="d-block w-100" alt="fotka">
-        </div>
-        <div class="carousel-item">
-          <img src="img/2.png" class="d-block w-100" alt="fotka">
-        </div>
       </div>
-    </div>
-
+    </div>    
     <div class="text-field">
       <h1>Vivus Uhříněves - byty u Nového náměstí</h1>
     </div>
 
-    <div class="card-columns row row-cols-4 row-cols-md-4 g-4">
+    <div class="card-columns row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
     </div>
 
     <div class="block domy-plne-zivota">
@@ -65,8 +58,8 @@
     </div>
 
     <div class="block vyhledavani-webu-wrapper">
-      <h1>VYHLEDAVANÍ BYTU</h1>
-      <form class="form">
+      <h1>VYHLEDÁVÁNÍ BYTŮ</h1>
+      <form class="form flex-md-row flex-column">
         <div>
           <label class="form-label" for="projekt">Projekt</label>
           <input class="form-control" placeholder="Prohledat vše" type="text" name="projekt" id="projekt">
@@ -83,19 +76,19 @@
           <label class="form-label" for="velikost">Velikost (m²)</label>
           <input class="form-control" placeholder="Vše" type="text" name="velikost" id="velikost">
         </div>
-        <div>
-          <input class="btn" type="submit" value="Vyhledat byt">
+        <div class="h-100 justify-content-end py-2">
+          <input class="btn my-1" type="submit" value="Vyhledat byt">
         </div>
       </form>
     </div>
 
-    <div class="m-0 block newsletter row">
-      <div class="col p-5 mobile-row-col">
+    <div class="m-0 block newsletter row flex-lg-row flex-column">
+      <div class="col p-5 flex-column">
         <h1 class="py-3 fat-header">NEWSLETTER</h1>
         <p class="py-4">Přihlaste se k odběru našeho newsletter. Nenechte si ujít akce, slevy a novinky ze světa tisku a
           marketingu.</p>
       </div>
-      <div class="col center">
+      <div class="col center p-5">
         <form>
           <div class="email-wrapper">
             <input type="email" class="form-control" placeholder="Zadejte e-mailovou adresu">
@@ -108,29 +101,29 @@
           </div>
         </form>
       </div>
-      <div class="col center mobile-display-none">
+      <div class="col center d-none d-lg-flex">
         <img src="img/post.png" alt="post">
       </div>
     </div>
 
 
     <footer>
-      <div class="socials-wrapper mobile-display-none" style="height: 100px; background-color: #bdb406;">
+      <div class="socials-wrapper" style="height: 100px; background-color: #bdb406;">
         <a class="nav-link" href="#">O společnosti VIVUS</a>
         <p class="nav-link">|</p>
         <a class="nav-link" href="#">mapa projektů</a>
         <p class="nav-link">|</p>
         <a class="nav-link" href="#">kontakt</a>
       </div>
-      <div class="information-wrapper row">
-        <div class="col center p-5 text-center">
-          <h1>sídlo investora a klienské centrum pankrác, a.s.</h1>
+      <div class="information-wrapper row-cols-1 row-cols-md-3 row">
+        <div class="col p-5">
+          <h4>SÍDLO INVESTORA A KLIENTSKÉ CENTRUM PANKRÁC, a.s.</h4>
           <p>Budějovická 5</p>
           <p>140 00 Praha 4</p>
           <p>IČ: 601 93 077</p>
         </div>
-        <div class="col center p-5 text-center">
-          <h1>otevírací doba</h1>
+        <div class="col p-5">
+          <h4>OTEVÍRACÍ DOBA</h4>
           <p>Informační a prodejní centrum je pro Vás otevřeno pondělí až pátek 9:00 - 17:00 hod.</p>
           <p>Osobní schůzky kdykoliv po telefonické domluvě</p>
           <p style="margin-top: 20px">Bezplatná linka: 800 186 186</p>
@@ -139,8 +132,8 @@
           <a href="mapa">Kde nás najdete?</a>
         </div>
 
-        <div class="col center p-5 text-center">
-          <h1>sociální sítě</h1>
+        <div class="col p-5">
+          <h4>SOCIÁLNÍ SÍTĚ</h4>
           <div class="socials-img-wrapper">
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                 class="bi bi-facebook" viewBox="0 0 16 16">
@@ -153,9 +146,10 @@
                   d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
               </svg></a>
           </div>
-          <p>Najdete nás na svých oblíbených sociálních sítích. Ať už na Facebooku nebo na Youtube</p>
+          <p class="py-3">Najdete nás na svých oblíbených sociálních sítích. Ať už na Facebooku nebo na Youtube</p>
         </div>
-        <div class="row webactive">
+        </div>
+        <div class="webactive">
           © 2023 Webactive s.r.o
         </div>
     </footer>
@@ -166,6 +160,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
+  <script src="script/coursel-generator.js"></script>
 
 </body>
 

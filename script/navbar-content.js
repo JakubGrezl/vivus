@@ -4,19 +4,15 @@ let navbarContent = [
         "link": "#"
     },
     {
-        "name": "Pro piloty",
+        "name": "O společnosti",
         "link": "#"
     },
     {
-        "name": "Letecký výcvik",
+        "name": "Mapa projektů",
         "link": "#"
     },
     {
-        "name": "Pro veřejnost",
-        "link": "#"
-    },
-    {
-        "name": "Webcamera",
+        "name": "Kontakt",
         "link": "#"
     }
 ]
