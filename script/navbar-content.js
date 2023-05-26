@@ -1,7 +1,7 @@
 let navbarContent = [
     {
         "name": "Home",
-        "link": "#"
+        "link": "/index.html",
     },
     {
         "name": "O společnosti",
@@ -13,7 +13,7 @@ let navbarContent = [
     },
     {
         "name": "Kontakt",
-        "link": "https://vivus.cz/kontakt.php?lg=cz"
+        "link": "/pages/contacts.html"
     }
 ]
 
