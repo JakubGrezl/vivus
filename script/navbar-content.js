@@ -5,7 +5,7 @@ let navbarContent = [
     },
     {
         "name": "O společnosti",
-        "link": "https://vivus.cz/vivus.php?lg=cz"
+        "link": "/pages/spolecnost.html",
     },
     {
         "name": "Mapa projektů",
