@@ -5,15 +5,15 @@ let navbarContent = [
     },
     {
         "name": "O společnosti",
-        "link": "#"
+        "link": "https://vivus.cz/vivus.php?lg=cz"
     },
     {
         "name": "Mapa projektů",
-        "link": "#"
+        "link": "https://vivus.cz/mapy.php?lg=cz"
     },
     {
         "name": "Kontakt",
-        "link": "#"
+        "link": "https://vivus.cz/kontakt.php?lg=cz"
     }
 ]
 

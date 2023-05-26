@@ -1,28 +1,45 @@
+// generace karet, ktere se zobrazuji na strance
+// jak se tvoří karta: přidá se do pole objekt s parametrama karty.
+// {
+//     color:, 
+//     title: , 
+//     description: , 
+//     stav: {
+//         description: ,
+//         procenta: // Pokud je stav 100%, tak se spodní část karty zmizí
+//     },
+//     img: {
+//         src: , 
+//         alt:  
+//     }
+// },
+
+
 let cards = [
     {
-        color: "#4486f6", // Replace with your desired color
-        title: "Byty Vivus, Golf Resort, Praha 4", // Replace with your card title
-        description: "Golf Resort - Hodovičky je projekt v žádané rezidenční lokalitě při údolí vltavy s...", // Replace with your card description
+        color: "#4486f6", 
+        title: "Byty Vivus, Golf Resort, Praha 4", 
+        description: "Golf Resort - Hodovičky je projekt v žádané rezidenční lokalitě při údolí vltavy s...", 
         stav: {
-            description: "Ve výstavbě", // Ve výstavbě nebo Vyprodáno
-            procenta: 33 // Replace with your percentage value
+            description: "Ve výstavbě",
+            procenta: 33 // Pokud je stav 100%, tak se spodní část karty zmizí
         },
         img: {
-            src: "https://picsum.photos/400", // Replace with your image URL
-            alt: "Image Alt Text" // Replace with your image alt text
+            src: "https://picsum.photos/400", 
+            alt: "Image Alt Text" 
         }
     },
     {
-        color: "#fdc703", // Replace with your desired color
-        title: "Byty Vivus, Uhčíněves V, Praha 10", // Replace with your card title
-        description: "Bydlete v klidné lokalitě obklopené zelení, blízko lesoparku Obora a Podles...", // Replace with your card description
+        color: "#fdc703", 
+        title: "Byty Vivus, Uhčíněves V, Praha 10", 
+        description: "Bydlete v klidné lokalitě obklopené zelení, blízko lesoparku Obora a Podles...",
         stav: {
-            description: "Ve výstavbě", // Ve výstavbě nebo Vyprodáno
-            procenta: 72 // Replace with your percentage value
+            description: "Ve výstavbě", 
+            procenta: 72 
         },
         img: {
-            src: "https://picsum.photos/400", // Replace with your image URL
-            alt: "Image Alt Text" // Replace with your image alt text
+            src: "https://picsum.photos/400", 
+            alt: "Image Alt Text" 
         }
     },
 ]
