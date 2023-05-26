@@ -56,7 +56,7 @@ function Display(procenta) {
     cards.forEach(card => {
         $('.card-columns').append(`
         <div class="col">
-        <div class="card">
+        <div class="card" style="border: none;">
             <div class="row">
               <div class="col-2"><div class="blue" style="background-color: ${card.color}"></div></div>
               <div class="col card-text-wrapper">
